@@ -1,0 +1,72 @@
+body{
+    margin: 50px;
+}
+.scroll {
+    width: 2100px;
+    padding-right: 50px;
+}
+h1 {
+    margin-top: 70px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 160;
+    font-family: "Calibri Light";
+    flex-basis: 200px;
+    font-size: xx-large;
+}
+.containerRect {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(8, 100px);
+    gap: 10px;
+}
+/* __________________________________________________________________________________________ */
+.block{
+    grid-row: span 2;
+    grid-column: span 1;
+
+}
+.rect {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.rectmini {
+    grid-row: span 1;
+    grid-column: span 3;
+}
+/* .mini {
+    grid-row: span 2;
+} */
+.big {
+    grid-row: span 3;
+    grid-column: span 3;
+}
+/* _________________________________________________________________________________________ */
+.red {
+    background: rgb(249, 79, 79);
+}
+.orange {
+    background: rgb(245, 170, 31);
+}
+.yellow {
+    background: rgb(231, 255, 48);
+}
+.lightgreen {
+    background: rgb(94, 254, 73);
+}
+.blue {
+    background: rgb(25, 155, 255);
+}
+.lightblue {
+    background: rgb(78, 194, 243);
+}
+.lightpurple {
+    background: rgb(181, 141, 255);
+}
+.purple {
+    background: rgb(143, 78, 247);
+}
+.pink {
+    background: rgb(253, 111, 255);
+}
