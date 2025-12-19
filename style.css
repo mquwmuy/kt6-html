@@ -17,7 +17,7 @@ h1 {
 }
 .containerRect {
     display: grid;
-    grid-auto-flew: dense;
+    grid-auto-flow: dense;
     grid-template-columns: repeat(10, auto);
     grid-template-rows: repeat(8, 100px);
     gap: 10px;
